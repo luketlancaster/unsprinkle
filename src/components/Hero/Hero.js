@@ -20,9 +20,12 @@ const Hero = () => {
             /images/hero-img@3x.jpg,
           "
         />
-        <img alt="" src="/images/hero-img.jpg" />
+        <img
+          alt="a serious looking cat staring right at you"
+          src="/images/hero-img.jpg"
+        />
       </HeroPicture>
-      <Swoop src="/swoop.svg" />
+      <Swoop src="/swoop.svg" alt="" />
     </Wrapper>
   );
 };
